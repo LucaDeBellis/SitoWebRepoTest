@@ -1,0 +1,91 @@
+/*spacing*/
+/*@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');*/
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 3px solid purple;
+    border-collapse: collapse;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+  }
+
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+
+  th , td {
+      padding: 20px;
+  }
+
+html {
+    font-family: "helvetica neue", Arial, Helvetica, sans-serif;
+}
+
+thead th , tfoot th {
+    font-family: "rock-salt", cursive;
+}
+
+th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+
+  tbody td {
+    text-align: center;
+  }
+
+  tfoot th {
+    text-align: right;
+  }
+
+  thead, tfoot {
+      background-image: url(../Pictures/CssPictures/leopardskin.jpg);
+      color: white;
+      text-shadow: 1px 1px 1px black;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #ff33cc;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #e495e4;
+    }
+
+    tbody tr {
+        background: url(../Pictures/CssPictures/noise.png)
+    }
+
+    table {
+        background-color: #ff33cc;
+      }
+
+      caption {
+        font-family: 'Rock Salt', cursive;
+        padding: 20px;
+        font-style: italic;
+        caption-side: bottom;
+        color: #666;
+        text-align: right;
+        letter-spacing: 1px;
+    }    
+    
+    thead th, tfoot th, tfoot td {
+      background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+      border: 3px solid purple;
+    }
+

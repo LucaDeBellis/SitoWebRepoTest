@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="titolo1">Hello World!</h1>
+        <nav>
+            <button id="bottone1" onclick="cambiaColore()">Cambia Sfondo</button>
+            
+            <button id="bottone2" onclick="saluta(),cambiaColore()">Saluta</button>
+            
+            <button onclick="variaTesto()"> Varia il Testo</button>
+            
+            <button onclick="ripristina()">ripristina</button>
+
+            <button onclick="apriFinestra()">Nuova Finestra</button>
+        </nav> 
+    </header>
+    
+    <main>
+     <p id="primo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quidem blanditiis ipsa earum alias magnam sit distinctio, nisi mollitia possimus? Numquam dolorem laboriosam quae sunt perferendis quisquam nesciunt, at dolorum.</p>
+
+     <p id="p2" onmouseover="mousePassaggio()" onmouseout="mouseVia()">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus excepturi possimus rerum distinctio impedit reprehenderit nemo quis doloremque quaerat. Quod hic nihil reprehenderit officia beatae architecto atque, rem cumque quidem.
+     </p>
+    </main>
+    <!-- il Prof ha usato <Section> invece di <main> -->
+    
+    <footer>
+
+    </footer>
+
+<!-- è necessario scrivere il codcie javascript tenendolo nel tag script, inoltre è meglio aggiungere il codice javascript alla fine del body cosi che il caricamento della pagina avvenga in maniera piu efficente-->
+    <script src="./JS/EsempioJs01.js">
+    </script>
+    
+</body>
+</html>

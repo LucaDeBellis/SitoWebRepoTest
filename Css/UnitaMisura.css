@@ -1,0 +1,24 @@
+/*
+body {
+    font-size: 20px;
+}
+
+div {
+    font-size: 5px;
+}
+
+p {
+    font-size: 2em;
+}
+/*em moltiplica per il genitore dell'elemento mentre rem usa quello della root (body/head)*/
+
+/*p {
+    width: 200px;
+    height: 200px;
+    border: red solid 1px;
+    overflow: scroll;
+}*/
+
+nav {
+    background-color: brown;
+}

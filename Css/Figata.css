@@ -1,0 +1,25 @@
+.Quadrato {
+    width: 1450px;
+    height: 650px;
+}
+
+.Bordo {
+    border: solid 10px;
+    border-radius: 50%;
+    border-color: skyblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 20%;
+}
+
+.ColoreSfumato {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,123,191,1) 95%, rgba(0,212,255,1) 100%);
+}
+
+.ImmagineSfondo {
+    background-image: url(../Pictures/DanieleGhidora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}

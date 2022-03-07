@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="http://www.uniba.it" method="get" > 
+        <!--Action= azione da fare, Method= metodo con cui vengono passati i dati (get/post).
+        GET is essentially used for fetching the information. As against, the purpose of POST method is to update the data.-->
+        
+        <fieldset>
+
+            <legend>dati anagrafici</legend>
+
+            <label for=""> Cognome</label>
+            <input required type="text" name="Cognome" maxlength="30" size="30" value="Ur Surname"> <br> 
+
+        <!--Max length è il numero massimo di caratteri ammissibili mentre size è la grandezza del campo in caratteri (o pixel, non si sa)-->
+
+            <label for="">Nome</label>
+            <input required type="text" name="Nome" maxlength="30" size="30" placeholder="Ur name"> <br> 
+        
+        <!--con name creiamo uan variable a cui po associamo cio che viene messo come input -->
+
+            <label for="">Data di nascita</label> 
+            <input required type="date" name="DataNascita"> <br>
+
+            <label for="">Email</label>
+            <input required type="email" name="Email"> <br>
+
+            <label for="">CV</label>
+            <input type="file" name="CV" required> <br>
+
+            <label for="">Provincia</label>
+            <select name="prov" id="" multiple>
+                <option value="ba">Bari</option>
+                <option value="bt">Barletta</option>
+                <option value="br">Brindisi</option>
+                <option value="fg">Foggia</option>
+                <option value="le">Lecce</option>
+                <option value="ta">Taranto</option>
+            </select>
+        
+        </fieldset>
+        
+        <fieldset>
+            <legend>Indagine conoscitiva</legend>
+            <label for="">che colore preferisci?</label>
+            <input type="color" name="ColorePreferito"> <br>
+
+            <label for="">quali quotidiani leggi?</label> <br>
+            <input type="checkbox" name="quotidiano" value="Repubblica" checked> Repubblica <br>
+            <input type="checkbox" name="quotidiano" value="CDS"> Corriere della Sera<br>
+            <input type="checkbox" name="quotidiano" value="GDM"> Gazzetta del Mezzogiorno
+            
+            <p>
+                <label for="">a che ora ti svegli la mattina ?</label> <br>
+                <input type="radio" name="Sveglia" value="6"> 6 <br>
+                <input type="radio" name="Sveglia" value="7"> 7 <br>
+                <input type="radio" name="Sveglia" value="8"> 8
+            </p>
+
+            <label for="Commento">Scrivici un Commento</label>
+            <textarea name="Commento" id="Commento" cols="30" rows="10"></textarea>
+
+
+        </fieldset>
+
+        <button type="submit">Polunga</button>
+        <button type="reset">Shenron</button>
+    
+    </form>
+
+
+</body>
+</html>

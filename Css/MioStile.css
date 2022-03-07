@@ -1,0 +1,56 @@
+/* asterisco selettore universale*/
+/*{
+    color: blue;
+}
+
+/* (TAG)Selettori di elementi */
+h1 {
+    background-color: blueviolet;
+    color: brown;
+    font-size: 100px;
+}
+
+/*classi*/ 
+.Evidenziato{
+    background-color: yellow;
+}
+
+.Mario{
+    font-weight: bold;  
+}
+
+/*  CON     h1.evidenziato{
+            background-color: yellow;
+            }
+    permetto solo ad h1 di ottenere lo stile evidenziato
+    */
+
+/*selettore di id, dove compare qeusto id adotta questa formattazione*/
+#Univ {
+color: greenyellow;
+}
+
+.Evidenziato.Mario{
+    text-transform: uppercase;
+}
+/* posso ottenere un altro tipo di formattazione aggiuntiva unendo 2 classi in particolare in questo caso aggiungendo Evidenziato E Mario ottengo un Uppercase in aggiunta alle caratteristiche di base di Evidenziato e Mario*/
+
+/*selettori di attributo*/
+a[title] {
+    background-color: violet;
+}
+
+a[href="mailto:segreteria@miaazienda.it"]{
+    background: royalblue;
+}
+ 
+/*pseudoclassi*/
+a:hover {
+    background-color: black;
+}
+
+/* pseudo elementi*/
+p::first-letter {
+    font-size: 130%;
+    font-weight: bold;
+}
